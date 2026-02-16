@@ -3,7 +3,7 @@ import { ajax } from 'rxjs/ajax';
 import { catchError, map, switchMap } from 'rxjs/operators';
 import './styles.css';
 
-const API_URL = '/messages/unread';
+const API_URL = 'https://ahj-rxjs-server-y727.onrender.com/messages/unread';
 const POLL_INTERVAL = 5000; // 5 секунд
 
 const addedMessageIds = new Set();
